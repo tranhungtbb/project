@@ -1,4 +1,4 @@
-* Trạng thái của file:
+﻿* Trạng thái của file:
 	- uncheked (khi tạo mới 1 file mà chưa được git quản lí)
 	- stage (sau khi git add <tên file> or git add . or git add --all) -- chuẩn bị commit
 	- unmodifile (khi file đã được quản lí và đã commit rồi)
@@ -24,4 +24,5 @@
 	- git reset --sort <code> (loại bỏ commit đến vị trí code , file ảnh hưởng về stage -- sẵn sàng commit)
 	- git reset --mixed <code> (loại bỏ commit đến vị trí code , file ảnh hưởng về unchecked -- sẵn sàng add)
 	- git reset --hard <code> (loại bỏ hết)
+	- git revert <code> xóa bỏ thay đổi của commit <code> và tạo ra 1 commit mới (+ thành -)
 
