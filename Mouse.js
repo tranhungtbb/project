@@ -6,3 +6,4 @@ Mouse.prototype.Eat = function(foodname) {
 	// body...
 	this.stomach.push(foodname);
 };
+module.exports = Mouse;
