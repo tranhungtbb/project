@@ -25,4 +25,5 @@
 	- git reset --mixed <code> (loại bỏ commit đến vị trí code , file ảnh hưởng về unchecked -- sẵn sàng add)
 	- git reset --hard <code> (loại bỏ hết)
 	- git revert <code> xóa bỏ thay đổi của commit <code> và tạo ra 1 commit mới (+ thành -)
+	- git push origin <branch> (push lên git với nhánh branch)
 
